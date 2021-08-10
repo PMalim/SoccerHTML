@@ -29,12 +29,19 @@
         <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
 
-        <script src="https://cdn.babylonjs.com/babylon.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.babylonjs.com/babylon.js"></script>
+        <script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+
+        <style>
+            html,
+            #game {
+                height: 100%;
+                width: 100%;
+            }
+        </style>
     </head>
     <body>
-        <div class="content">
-
-        </div>
+        <canvas id="game"></canvas>
         <script type="application/javascript" src="app.js"></script>
     </body>
 </html>
